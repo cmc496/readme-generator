@@ -18,6 +18,7 @@
 * If not already installed, please install Node.js (https://nodejs.org/en/download/).
 * Clone this repo to your local machine.
 * Run "npm init".
+* Run "npm i inquirer".
 * Run "node index".
 * Fill out the prompts to successfully generate a ReadMe file!
 
