@@ -22,7 +22,7 @@ const questions = [
     {
         type: "input",
         name: "contributions",
-        message: "Who contributed to this project?"
+        message: "Please list all who contributed to this project."
     },
     {
         type: "input",
@@ -34,11 +34,6 @@ const questions = [
         name: "license",
         message: "What license(s) is applicable to this project?",
         choices: ["MIT License", "Apache License", "Mozilla", "Other"]
-    },
-    {
-        type: "input",
-        name: "author",
-        message: "Please type your name as the main author of this project."
     },
     {
         type: "input",
