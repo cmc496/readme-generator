@@ -11,23 +11,13 @@ const questions = [
     },
     {
         type: "installation",
-        name: "installations",
+        name: "installation",
         message: "Are there any installations required to run this project?"
-    },
-    {
-        type: "input",
-        name: "usage",
-        message: "What is the primary use for this application?"
     },
     {
         type: "input",
         name: "contributions",
         message: "Please list all who contributed to this project."
-    },
-    {
-        type: "input",
-        name: "tests",
-        message: "Provide testing instructions if applicable."
     },
     {
         type: "checkbox",
