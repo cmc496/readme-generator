@@ -5,11 +5,11 @@ const renderLicense = require('./renderLicense');
 function generateMarkdown(data) {
   return `
   ---
-  # ${data.title}</br>
-    ${data.description}</br>
-    Deployed: ${data.URL}</br>
+  # ${data.title}
+    ${data.description}
+    Deployed: ${data.URL}
     ___
-    ## Table of Contents</br>
+    ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
@@ -17,22 +17,22 @@ function generateMarkdown(data) {
     * [Tests](#tests)
     * [Questions](#questions)
     ___
-    ## Installation</br>
-    ${data.installation}</br>
+    ## Installation
+    ${data.installation}
 
-    ## Usage</br>
-    ${data.usage}</br>
+    ## Usage
+    ${data.usage}
 
-    ## License</br>
-    * ${data.renderLicense}</br>
+    ## License
+    * ${data.renderLicense}
 
-    ## Contributions</br>
-    ${data.contributions}</br>
+    ## Contributions
+    ${data.contributions}
 
-    ## Tests</br>
-    ${data.tests}</br>
+    ## Tests
+    ${data.tests}
 
-    ## Questions</br>
+    ## Questions
     ${data.questions}`;
 }
 
