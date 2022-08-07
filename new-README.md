@@ -1,7 +1,7 @@
 
   ---
   # Readme Generator
-    This project is designed to allow developers to more easily create a Readme file for a project
+    This goal of this project is to allow developers to more easily generate a README file for their projects.
     Deployed: https://cmc496.github.io/readme-generator/
     ___
     ## Table of Contents
@@ -13,19 +13,13 @@
     * [Questions](#questions)
     ___
     ## Installation
-    undefined
-
-    ## Usage
-    
+    Please install node.js and the node.js package inquirer.
 
     ## License
     * [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
     ## Contributions
     Caitlin Clifford
-
-    ## Tests
-    
 
     ## Questions
     cait@gmail.com
